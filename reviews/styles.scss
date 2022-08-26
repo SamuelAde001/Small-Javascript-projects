@@ -1,0 +1,99 @@
+@import "reset.css" ;
+
+$mainColor: rgb(94, 188, 235);
+$backgroundColor: rgb(203, 233, 248);
+$mainbgColor: #fff;
+
+
+body{
+  display: grid;
+  place-content: center;
+  background-color: $backgroundColor;
+}
+main{
+  height: auto;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:$mainbgColor ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  h1{
+        margin: 10px 0;
+  }
+  p{
+    text-align: justify;
+  }
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    h2 {
+        text-align: center;
+        margin:10px 0;
+      }
+      h3{
+        color: $mainColor;
+        margin-bottom: 10px;
+      }
+}
+.reviewContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonWrap{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  .navbtns {
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+        margin: 10px 0;
+    &:hover{
+      background-color: #f7f7ff;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  
+      i {
+        color: $mainColor;
+      }
+    }
+  }
+  .random{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 0;
+    background-color: #f7f7ff;
+    cursor: pointer;
+    color: $mainColor;
+    border-radius: 5px;
+    &:hover{
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+  }
+}
+.imagesContainer{
+display: inline-block;
+width: 100%;
+display: flex;
+justify-content: center;
+position: relative;
+#quotemrks {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left:30%;
+  }
+.profilePics{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border-right: 10px solid $mainColor;
+  border-top: 10px solid $mainColor;
+  
+}
+}

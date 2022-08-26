@@ -1,0 +1,92 @@
+@import "reset.css";
+body {
+  display: grid;
+  place-content: center;
+  background-color: rgb(203, 233, 248);
+}
+
+main {
+  height: auto;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+main h1 {
+  margin: 10px 0;
+}
+main p {
+  text-align: justify;
+}
+main .name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .name h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+main .name h3 {
+  color: rgb(94, 188, 235);
+  margin-bottom: 10px;
+}
+main .reviewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .buttonWrap {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+main .buttonWrap .navbtns {
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+main .buttonWrap .navbtns:hover {
+  background-color: #f7f7ff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+main .buttonWrap .navbtns i {
+  color: rgb(94, 188, 235);
+}
+main .random {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 0;
+  background-color: #f7f7ff;
+  cursor: pointer;
+  color: rgb(94, 188, 235);
+  border-radius: 5px;
+}
+main .random:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imagesContainer {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.imagesContainer #quotemrks {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 30%;
+}
+.imagesContainer .profilePics {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border-right: 10px solid rgb(94, 188, 235);
+  border-top: 10px solid rgb(94, 188, 235);
+}/*# sourceMappingURL=styles.css.map */

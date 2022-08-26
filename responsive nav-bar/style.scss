@@ -1,0 +1,19 @@
+@forward "reset";
+$mainColor: rgb(154, 221, 245);
+body{
+  background-color: $mainColor ;
+}
+header{
+  height: 20%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  h1{
+    text-shadow: 2px 2px 2px;
+  }
+  span{
+    color: darken($mainColor, 30%);
+    text-shadow: 2px 2px 2px;
+  }
+}
